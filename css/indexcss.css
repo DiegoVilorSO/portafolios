@@ -1,0 +1,60 @@
+div#cuerpo {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+div#cuerpo p {
+    width: 70vw;
+    margin: auto;
+}
+
+div#cuerpo p#parrafosaludo {
+    color: rgb(255, 123, 0);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+div#cuerpo p#parrafopresentacion {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+div#estructuraskills {
+    width: 75vw;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+div#estructuraskills img {
+    height: 75px;
+    width: 75px;
+}
+
+div#estructuraskills div#caja3 img {
+    height: 70px;
+    width: 75px;
+}
+
+div#estructuraskills div {
+    width: calc(100%/3);
+    float: left;
+}
+
+div#estructuraskills div p {
+    width: calc(100%/3);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+div#estructuraskills div img+p {
+    color: rgb(255, 123, 0);
+    font-size: 1.1em;
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+div#formulario {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div#formulario p {
+    color: rgb(255, 123, 0);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+div#formulario input#subject {
+    width: 400px;
+}
+
+div#formulario textarea {
+    width: 460px;
+    height: 140px;
+}

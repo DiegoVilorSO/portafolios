@@ -5,6 +5,10 @@ body {
     margin: auto;
 }
 
+div#contenido {
+    min-height: 100%;
+}
+
 div#header {
     background-color: #E9DAC1;
     height: 50px;
@@ -18,7 +22,7 @@ div#header p {
     margin-left: 30px;
     line-height: 50px;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 div#menu {
@@ -39,6 +43,14 @@ div#menu ul {
     margin-bottom: 5px;
 }
 
+div#menu li {
+    list-style: none;
+}
+
+div#menu li+li {
+    margin-left: 20px;
+}
+
 div#menu a {
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -51,13 +63,32 @@ div#menu a:link, a:visited, a:active {
     text-decoration:none;
     color: black;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 div#menu a:hover, a:focus {
     background-size: 100% 2px;
 }
 
-div#menu li {
-    list-style: none;
+div#cuerpo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+
+div#pie {
+    background-color: #54BAB9;
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#pie p {
+    color: lightgrey;
+}
+
